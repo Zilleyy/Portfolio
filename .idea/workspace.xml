@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87a0b62c-9293-41e7-9f85-dfc3009d8de9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="87a0b62c-9293-41e7-9f85-dfc3009d8de9" name="Default Changelist" comment="Fixed build errors.">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -107,12 +107,24 @@
       <workItem from="1621989362192" duration="45037000" />
       <workItem from="1622078364565" duration="23763000" />
       <workItem from="1622117065474" duration="94000" />
-      <workItem from="1622381464864" duration="2138000" />
+      <workItem from="1622381464864" duration="2486000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed build errors.">
+      <created>1622384999616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622384999616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed build errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed build errors." />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="236" key="#Notifications" timestamp="1622087131409">
@@ -175,6 +187,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="19" y="70" width="1253" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622088804862" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622385002015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622385002015" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1622006269217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
