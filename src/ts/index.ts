@@ -51,10 +51,8 @@ export module Program {
      */
     export class Engine {
 
-        /* APPLICATION STATE FIELDS */
-        public running: boolean;
-
         /* GLOBAL FIELDS */
+        public running: boolean;
         private ambientLight: AmbientLight;
         private readonly textureLoader: TextureLoader = new TextureLoader();
 
@@ -173,28 +171,38 @@ export module Program {
         }
 
         /**
-         * @description Updates and renders all the SceneObject(s) to be drawn onto the Canvas.
+         * @description The main game-loop for the program.
          * @private
          */
         private run(): void {
-            const renderCallback: FrameRequestCallback = () => {
-                // TODO - I don't like the way this recurses using a function/callback object. Look into making it work with a normal method.
-                requestAnimationFrame(renderCallback);
+            requestAnimationFrame(this.run.bind(this)); // Request the next animation frame.
+            this.render(); // Render the current frame.
+            this.update(); // Perform updates for the next frame.
+        }
 
-                this.camera.position.z -= 2 / 3;
+        /**
+         * @description Renders all the SceneObject(s) to the Canvas.
+         * @private
+         */
+        private render(): void {
+            this.renderer.render(this.scene, this.camera);
+        }
 
-                for(let object of this.scene.children) {
-                    object.rotation.x -= 0.005;
-                    object.rotation.y -= 0.005;
-                    object.rotation.z -= 0.005;
-                    if(object.position.z > this.camera.position.z) {
-                        object.position.set(object.position.x, object.position.y, this.camera.position.z - this.camera.far)
-                    }
-                }
+        /**
+         * @description Updates all the SceneObject(s).
+         * @private
+         */
+        private update(): void {
+            this.camera.position.z -= 2 / 3;
 
-                this.renderer.render(this.scene, this.camera);
-            };
-            renderCallback(null);
+            for(let object of this.scene.children) {
+                object.rotation.x -= 0.005;
+                object.rotation.y -= 0.005;
+                object.rotation.z -= 0.005;
+
+                if(object.position.z > this.camera.position.z)
+                    object.position.set(object.position.x, object.position.y, this.camera.position.z - this.camera.far);
+            }
         }
 
     }
