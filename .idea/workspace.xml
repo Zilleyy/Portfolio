@@ -6,11 +6,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="87a0b62c-9293-41e7-9f85-dfc3009d8de9" name="Default Changelist" comment="Npm install script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/showcase.html" beforeDir="false" afterPath="$PROJECT_DIR$/showcase.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +77,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\media\image" />
-      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src" />
-      <recent name="C:\Users\coope\Desktop\Files\Portfolio" />
-      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\html" />
-      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\html" />
       <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\media\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\coope\Desktop\Files\Portfolio" />
+      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\media\image" />
+      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src" />
+      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\html" />
+      <recent name="C:\Users\coope\Desktop\Files\Portfolio\src\css" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -112,6 +133,7 @@
       <workItem from="1622381464864" duration="2717000" />
       <workItem from="1622426091160" duration="541000" />
       <workItem from="1622516995846" duration="2087000" />
+      <workItem from="1622949737616" duration="1333000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed build errors.">
       <created>1622384999616</created>
@@ -132,6 +154,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed build errors." />
