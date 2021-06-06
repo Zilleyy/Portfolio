@@ -25,8 +25,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87a0b62c-9293-41e7-9f85-dfc3009d8de9" name="Default Changelist" comment="Debugging...">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="87a0b62c-9293-41e7-9f85-dfc3009d8de9" name="Default Changelist" comment="vite.config.js">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,7 @@
       <workItem from="1622381464864" duration="2717000" />
       <workItem from="1622426091160" duration="541000" />
       <workItem from="1622516995846" duration="2087000" />
-      <workItem from="1622949737616" duration="1587000" />
+      <workItem from="1622949737616" duration="1922000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed build errors.">
       <created>1622384999616</created>
@@ -151,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622951110731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vite.config.js">
+      <created>1622951351329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622951351329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +180,8 @@
     <MESSAGE value="Fixed build errors." />
     <MESSAGE value="Npm install script" />
     <MESSAGE value="Debugging..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugging..." />
+    <MESSAGE value="vite.config.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="vite.config.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="236" key="#Notifications" timestamp="1622087131409">
@@ -235,10 +244,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="19" y="70" width="1253" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622088804862" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622951112375">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622951352531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622951112375" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622951352531" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1622006269217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
